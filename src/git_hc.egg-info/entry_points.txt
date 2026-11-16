@@ -1,0 +1,2 @@
+[console_scripts]
+git-hc = hc.cli:main

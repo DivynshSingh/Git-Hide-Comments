@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: git-hc
+Version: 0.1.0
+Summary: git hc — hide and restore source-code comments using Git object storage
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pygments>=2.14.0
+
+hide comments

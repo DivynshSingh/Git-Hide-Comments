@@ -1,0 +1,115 @@
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ==============================
+# Virtual environments
+# ==============================
+venv/
+.venv/
+env/
+.env/
+ENV/
+.python-version
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Testing and coverage
+# ==============================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+test-results/
+junit.xml
+
+# ==============================
+# Type checking and linting
+# ==============================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+
+# ==============================
+# Build and distribution
+# ==============================
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+
+# ==============================
+# IDEs and editors
+# ==============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.spyderproject
+.spyproject
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# ==============================
+# Python tooling
+# ==============================
+.pybuilder/
+.pybuild/
+pip-log.txt
+poetry.toml
+
+# ==============================
+# Profiling
+# ==============================
+.prof
+.profiler/
+*.lprof
+
+# ==============================
+# PyInstaller
+# ==============================
+*.manifest
+*.spec

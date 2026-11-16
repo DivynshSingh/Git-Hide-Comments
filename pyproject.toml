@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-hc"
+version = "0.1.0"
+description = "git hc — hide and restore source-code comments using Git object storage"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pygments>=2.14.0"]
+
+[project.scripts]
+git-hc = "hc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
